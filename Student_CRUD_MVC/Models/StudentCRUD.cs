@@ -27,7 +27,7 @@ namespace Student_CRUD_MVC.Models
                     Student s = new Student();
                     s.Roll = Convert.ToInt32(dr["roll"]);
                     s.Name = dr["name"].ToString();
-                    s.Percentage = Convert.ToInt32(dr["percentage"]);
+                    s.Percentage = Convert.ToDouble(dr["percentage"]);
                     list.Add(s);
                 }
             }
