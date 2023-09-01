@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Percentage)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Roll }) |
-                    @Html.ActionLink("Details", "Details", new { id=item.Roll }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=item.Roll })
+                @Html.ActionLink("Edit", "Edit", new { roll=item.Roll }) |
+                    @Html.ActionLink("Details", "Details", new { roll=item.Roll }) |
+                    @Html.ActionLink("Delete", "Delete", new { roll=item.Roll })
             </td>
         </tr>
 }
